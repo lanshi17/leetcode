@@ -1,0 +1,21 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 100
+UseTab: Never
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: None
+AlignTrailingComments: true
+PointerAlignment: Right
+SpaceAfterCStyleCast: true
+SpaceBeforeAssignmentOperators: true
+SpacesInAngles: false
+SpacesInContainerLiterals: true
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeRangeBasedForLoopColon: true
+Standard: Cpp11
+TabWidth: 4
+UseCRLF: false
+UseTab: Never
+
