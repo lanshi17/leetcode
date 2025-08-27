@@ -1,0 +1,61 @@
+# rustfmt configuration file
+# Based on LLVM style guide
+
+# General indentation
+indent_style = "Block"
+indent_width = 4
+tab_width = 4
+use_tabs = false
+
+# Line formatting
+max_width = 100
+use_small_heuristics = "Off"
+
+# Brace formatting (similar to Allman style)
+brace_style = "AlwaysNextLine"
+control_brace_style = "AlwaysSameLine"
+
+# Function formatting
+fn_single_line = false
+fn_args_layout = "Tall"
+fn_params_layout = "Tall"
+
+# Alignment and spacing
+align_trailing_comments = true
+spaces_around_ranges = true
+spaces_within_parens_and_brackets = false
+space_before_fn_sig_paren = false
+space_after_fn_sig_paren = false
+space_around_attr_eq = true
+space_before_colon = false
+space_after_colon = true
+
+# Import and module formatting
+imports_indent = "Block"
+imports_layout = "Mixed"
+merge_imports = false
+
+# Comment formatting
+comment_width = 80
+wrap_comments = true
+normalize_comments = true
+
+# Chain formatting
+chain_indent = "Block"
+chain_width = 60
+
+# Array and struct formatting
+array_layout = "Block"
+struct_lit_style = "Block"
+struct_variant_width = 0
+
+# Match expression formatting
+match_block_trailing_comma = true
+match_arm_leading_pipes = "Never"
+
+# Other formatting options
+reorder_imports = true
+reorder_modules = true
+reorder_impl_items = false
+hard_tabs = false
+newline_style = "Unix"
